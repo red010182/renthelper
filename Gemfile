@@ -25,6 +25,7 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
+  gem 'annotate'
 end
 group :production do
   gem 'thin'

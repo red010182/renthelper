@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: rooms
+#
+#  id              :integer          not null, primary key
+#  room_id         :string(255)
+#  hardware_device :string(255)
+#  fix_record      :string(255)
+#  created_at      :datetime
+#  updated_at      :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  room_id: MyString
+  hardware_device: MyString
+  fix_record: MyString
+
+two:
+  room_id: MyString
+  hardware_device: MyString
+  fix_record: MyString
